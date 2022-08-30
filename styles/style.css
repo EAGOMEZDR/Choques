@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navBarra{
+    position:fixed;
+    z-index: 1000;
+    width: 100%;
+    
+}
+
+.inicio{
+    background-image: url("../imagenes/car1.jpg");
+    height: 100vh;
+    /* position:relative;
+    height: 100vh;
+    width: auto; */
+    border-bottom: 1px solid black;
+}
+
+.queHacer{
+    background-image: url("../imagenes/car2.jpg");
+    height: 100vh;
+    /* position:relative;
+    height: 100vh;
+    width: auto; */
+}
+
+.documentacion{
+    background-image: url("../imagenes/car3.jpg");
+    height: 100vh;
+    /* position:relative;
+    height: 100vh;
+    width: auto; */
+}
+
+.servicios{
+    background-image: url("../imagenes/car4.jpg");
+    height: 100vh;
+    /* position:relative;
+    height: 100vh;
+    width: auto; */
+}
+
+.contactanos{
+    background-image: url("../imagenes/car5.jpg");
+    height: 100vh;
+    /* position:relative;
+    height: 100vh;
+    width: auto; */
+}
+
+.preguntasFrecuentes{
+    background-image: url("../imagenes/car6.jpg");
+    height: 100vh;
+    /* position:relative;
+    height: 100vh;
+    width: auto; */
+}
+
+.botonDown{
+    height: 6vh;
+    width: 6vh;
+    position: sticky;
+    z-index: 1000;
+    bottom: 0;
+    left:50%;
+    
+}
