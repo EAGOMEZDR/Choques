@@ -3,60 +3,17 @@
     margin: 0;
 }
 
-.navBarra{
-    position:fixed;
-    z-index: 1000;
-    width: 100%;
-    
+
+.logo{
+    display:none
 }
 
-.inicio{
-    background-image: url("../imagenes/car1.jpg");
-    height: 100vh;
-    /* position:relative;
-    height: 100vh;
-    width: auto; */
-    border-bottom: 1px solid black;
-}
-
-.queHacer{
-    background-image: url("../imagenes/car2.jpg");
-    height: 100vh;
-    /* position:relative;
-    height: 100vh;
-    width: auto; */
-}
-
-.documentacion{
-    background-image: url("../imagenes/car3.jpg");
-    height: 100vh;
-    /* position:relative;
-    height: 100vh;
-    width: auto; */
-}
-
-.servicios{
-    background-image: url("../imagenes/car4.jpg");
-    height: 100vh;
-    /* position:relative;
-    height: 100vh;
-    width: auto; */
-}
-
-.contactanos{
-    background-image: url("../imagenes/car5.jpg");
-    height: 100vh;
-    /* position:relative;
-    height: 100vh;
-    width: auto; */
-}
-
-.preguntasFrecuentes{
-    background-image: url("../imagenes/car6.jpg");
-    height: 100vh;
-    /* position:relative;
-    height: 100vh;
-    width: auto; */
+.foot{
+    height: 5vh;
+    position:relative;
+    width: auto;
+    z-index: 500;
+    background-color: antiquewhite;
 }
 
 .botonDown{
@@ -67,4 +24,139 @@
     bottom: 0;
     left:50%;
     
+}
+
+.textoIndex{
+    height: 15vh;
+    width: 40vh;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:relative;
+    top:30vh;
+    margin:0 auto;
+    color:white;
+
+}
+
+
+.inicio{
+    height: 100vh;
+    background-color:rgb(131, 131, 131);
+    background-size: auto;
+    background-blend-mode: multiply;
+    border-bottom: 1px solid black;
+}
+
+.queHacer{
+    height: 100vh;
+    background-color:rgb(131, 131, 131);
+    background-size: auto;
+    background-blend-mode: multiply;
+    border-bottom: 1px solid black;
+}
+
+.documentacion{
+    height: 100vh;
+    background-color:rgb(131, 131, 131);
+    background-size: auto;
+    background-blend-mode: multiply;
+    border-bottom: 1px solid black;
+}
+
+.servicios{
+    height: 100vh;
+    background-color:rgb(131, 131, 131);
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    border-bottom: 1px solid black;
+}
+
+.contactanos{
+    height: 100vh;
+    background-color:rgb(131, 131, 131);
+    background-size: auto;
+    background-blend-mode: multiply;
+    border-bottom: 1px solid black;
+}
+
+.preguntasFrecuentes{
+    height: 100vh;
+    background-color:rgb(131, 131, 131);
+    background-size: auto;
+    background-blend-mode: multiply;
+    border-bottom: 1px solid black;
+}
+
+@media (max-width: 720px){
+    .inicio{
+    background-image: url("../imagenes/car1m.jpg");
+
+}
+
+.queHacer{
+    background-image: url("../imagenes/car2m.jpg");
+
+}
+
+.documentacion{
+    background-image: url("../imagenes/car3m.jpg");
+
+}
+
+.servicios{
+    background-image: url("../imagenes/car4m.jpg");
+
+}
+
+.contactanos{
+    background-image: url("../imagenes/car5m.jpg");
+
+}
+
+.preguntasFrecuentes{
+    background-image: url("../imagenes/car6m.jpg");
+
+}
+
+}
+
+
+
+
+
+/* PARA PC */
+
+@media (min-width: 721px){
+
+    .logo15{
+        display:none;
+
+    }
+    .logo{
+        display:contents;
+    }
+    .inicio{
+        background-image: url("../imagenes/car1.jpg");
+    }
+    
+    .queHacer{
+        background-image: url("../imagenes/car2.jpg");
+    }
+    
+    .documentacion{
+        background-image: url("../imagenes/car3.jpg");
+    }
+    
+    .servicios{
+        background-image: url("../imagenes/car4.jpg");
+    }
+    
+    .contactanos{
+        background-image: url("../imagenes/car5.jpg");
+    }
+    
+    .preguntasFrecuentes{
+        background-image: url("../imagenes/car6.jpg");
+    }
 }
