@@ -8,6 +8,7 @@
     display:none
 }
 
+
 .foot{
     height: 5vh;
     position:relative;
@@ -26,22 +27,20 @@
     
 }
 
-.textoIndex{
-    height: 15vh;
-    width: 40vh;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position:relative;
-    top:30vh;
-    margin:0 auto;
-    color:white;
-
+.QR{
+    height: 30vh;
+    width: auto;
+    background-color: white;
 }
 
 
+.listadoDocumental{
+    list-style: none;
+}
+
 .inicio{
     height: 100vh;
-    background-color:rgb(131, 131, 131);
+    background-color:rgb(75, 75, 75);
     background-size: auto;
     background-blend-mode: multiply;
     border-bottom: 1px solid black;
@@ -49,7 +48,7 @@
 
 .queHacer{
     height: 100vh;
-    background-color:rgb(131, 131, 131);
+    background-color:rgb(75, 75, 75);
     background-size: auto;
     background-blend-mode: multiply;
     border-bottom: 1px solid black;
@@ -57,7 +56,7 @@
 
 .documentacion{
     height: 100vh;
-    background-color:rgb(131, 131, 131);
+    background-color:rgb(75, 75, 75);
     background-size: auto;
     background-blend-mode: multiply;
     border-bottom: 1px solid black;
@@ -65,7 +64,7 @@
 
 .servicios{
     height: 100vh;
-    background-color:rgb(131, 131, 131);
+    background-color:rgb(75, 75, 75);
     background-size:auto;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
@@ -74,7 +73,7 @@
 
 .contactanos{
     height: 100vh;
-    background-color:rgb(131, 131, 131);
+    background-color:rgb(75, 75, 75);
     background-size: auto;
     background-blend-mode: multiply;
     border-bottom: 1px solid black;
@@ -82,7 +81,7 @@
 
 .preguntasFrecuentes{
     height: 100vh;
-    background-color:rgb(131, 131, 131);
+    background-color:rgb(75, 75, 75);
     background-size: auto;
     background-blend-mode: multiply;
     border-bottom: 1px solid black;
@@ -92,33 +91,107 @@
     .inicio{
     background-image: url("../imagenes/car1m.jpg");
 
-}
+    }
 
-.queHacer{
+    .queHacer{
     background-image: url("../imagenes/car2m.jpg");
 
-}
+    }
 
-.documentacion{
+    .documentacion{
     background-image: url("../imagenes/car3m.jpg");
 
-}
+    }
 
-.servicios{
+    .servicios{
     background-image: url("../imagenes/car4m.jpg");
 
-}
+    }
 
-.contactanos{
+    .contactanos{
     background-image: url("../imagenes/car5m.jpg");
 
-}
+    }
 
-.preguntasFrecuentes{
+    .preguntasFrecuentes{
     background-image: url("../imagenes/car6m.jpg");
 
-}
+    }
 
+
+    .textoIndex{
+        height: 15vh;
+        width: 40vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:relative;
+        top:70vh;
+        margin:0 auto;
+        color:white;
+    
+    }
+    .textoQueHacer{
+        height: 15vh;
+        width: 40vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:relative;
+        top:60vh;
+        margin:0 auto;
+        color:white;
+    
+    }
+
+    .textoDocumentacion{
+        height: 15vh;
+        width: 45vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:relative;
+        top:7vh;
+        margin:0 auto;
+        color:white;
+    
+    }
+
+    .textoServicios{
+        height: 15vh;
+        width: 40vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:relative;
+        top:50vh;
+        margin:0 auto;
+        color:white;
+    
+    }
+
+    .textoContacto{
+        height: 15vh;
+        width: 40vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:relative;
+        top:40vh;
+        margin:0 auto;
+        color:white;
+    
+    }
+
+    .textoPreguntas{
+        height: 15vh;
+        width: 40vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:relative;
+        top:50vh;
+        margin:0 auto;
+        color:white;
+    
+    }
+    .QRP{
+        display: none;
+    }
 }
 
 
@@ -158,5 +231,81 @@
     
     .preguntasFrecuentes{
         background-image: url("../imagenes/car6.jpg");
+    }
+
+    .textoIndex{
+        height: 15vh;
+        width:80vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2vh;
+        position:relative;
+        top:68vh;
+        margin: 0 auto;
+        color:white;       
+    
+    }
+
+    .textoQueHacer{
+        height: 15vh;
+        width: 40vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:relative;
+        top:60vh;
+        margin:0 auto;
+        color:white;
+    
+    }
+
+    .textoDocumentacion{
+        height: 15vh;
+        width: 90vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:relative;
+        top:35vh;
+        margin:0 auto;
+        color:white;
+    
+    }
+
+    .textoServicios{
+        height: 15vh;
+        width: 90vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:relative;
+        top:70vh;
+        margin:0 auto;
+        color:white;
+    
+    }
+
+    .textoContacto{
+        height: 15vh;
+        width: 80vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:relative;
+        top:50vh;
+        margin:0 auto;
+        color:white;
+    
+    }
+
+    .textoPreguntas{
+        height: 15vh;
+        width: 80vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:relative;
+        top:50vh;
+        margin:0 auto;
+        color:white;
+    
+    }
+    .QRPM{
+        display: none;
     }
 }
