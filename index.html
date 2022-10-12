@@ -11,32 +11,32 @@
 <body>
     
     <header>
-        <nav class="navbar navbar-expand-xl bg-light fixed-top">
+        <nav class="navbar navbar-expand-xl fixed-top" id="pruebaBoot">
             <div class="container-fluid">
-              <a class="navbar-brand logo" href="#inicio"><img src="./imagenes/logo.png" alt="logo"></a>
+              <a class="navbar-brand logo bg-light" href="#inicio"><img src="./imagenes/logo.png" alt="logo"></a>
               <a class="navbar-brand logo15" href="#inicio"><img src="./imagenes/logo15.png" alt="logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse  navbar-collapse" id="navbarText">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#inicio">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#queHacer">Que hacer?</a>
+                    <a class="nav-link active  text-white" href="#queHacer">Que hacer?</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#documentacion">Documentacion</a>
+                    <a class="nav-link active  text-white" href="#documentacion">Documentacion</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#servicios">Servicios</a>
+                    <a class="nav-link active  text-white" href="#servicios">Servicios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#contactanos">Contactanos</a>
+                    <a class="nav-link active  text-white" href="#contactanos">Contactanos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#preguntasFrecuentes">Preguntas frecuentes</a>
+                    <a class="nav-link active  text-white" href="#preguntasFrecuentes">Preguntas frecuentes</a>
                   </li>
 
                 </ul>
@@ -50,50 +50,52 @@
     <main class="main">
         <div class="inicio back" id="inicio">
             <div class="textoIndex">
-              <h2>CHOCASTE?</h2>
-              <p>NO PIERDAS NI UN MINUTO, INFORMATE LO QUE TENES QUE HACER PARA REPARAR TU AUTO!</p>
-                <a type="button" href="#queHacer" class="btn btn-primary">Que Hacer?</a>
+              <h2 id="tituloPag">CHOCASTE?</h2>
+              <p>NO PIERDAS NI UN MINUTO, INFORMATE LO QUE TENES QUE HACER!</p>
+                <a  type="button" href="#queHacer" class="btn btn-primary d-flex justify-content-center">Que Hacer?</a>
             </div>    
         </div>
 
         <div class="queHacer back" id="queHacer">
             <div class="textoQueHacer">
-              <h2>QUE HACER FRENTE A UN SINIESTRO VIAL?</h2>
-              <p>En primer lugar debes verificar si hay algun herido de gravedad. En caso de ser necesario, deberas dar aviso al servicio de emergencias correspondiente. Una vez controlada la situacion, debes proceder a recabar toda la documental necesaria para iniciar el reclamo al seguro.</p>
-                <a type="button" href="#documentacion" class="btn btn-primary">Documental</a>
+              <h2 id="tituloPag">QUE HACER FRENTE A UN SINIESTRO VIAL?</h2>
+              <ul>
+                <li>Verifica que no haya heridos de gravedad.</li>
+                <li>Toma fotos de los daños.</li>
+                <li>Solicita la documentacion pertinente.</li>
+                <li>Concurrí al Hospital/Clinica/Centro de Salud mas cercano para tu atención.</li>
+                <li>NO TE OLVIDES DE REALIZAR LA DENUNCIA ANTE TU SEGURO (dentro de los 3 dias).</li>
+              </ul>
+                <a type="button" href="#documentacion" class="btn btn-primary d-flex justify-content-center">Documental</a>
             </div>
         </div>
 
         <div class="documentacion back" id="documentacion">
-            <div class="textoDocumentacion"><h2>DOCUMENTAL NECESARIA</h2>
-              <p>Vas a necesitar solicitar documentacion a los otros involucrados en el siniestro, principalmente vas a requerir:</p>
+            <div class="textoDocumentacion"><h2 id="tituloPag">DOCUMENTAL NECESARIA PARA TRAMITE</h2>
                 <ul class="listadoDocumental">
-                    <li>DNI Y LICENCIA</li>
+                    <li>DNI, LICENCIA, CEDULA VERDE/AZUL (TITULAR/AUTORIZADO) (</li>
                     <li>CONSTANCIA SEGURO</li>
                     <li>FOTOS DE LOS DAÑOS</li>
                     <li>FOTOS DEL LUGAR</li>
                     <li>DATOS DE TESTIGOS</li>
                 </ul>
-                <p>Ademas de la documental antes mencionada, tenes tres dias para realizar la denuncia ante tu seguro.</p> <p>Recorda indicar con detalle como se produjo el siniestro.</p>
-                <p> Tambien tene presente que es importante que concurras de manera inmediata a un Hospital publico o el que te corresponda por tu obra social para que te realicen todos los estudios de rigor para descartar o acreditar daños producto del siniestro.</p>
-                <p>UNA VEZ QUE TENGAS TODA LA DOCUMENTAL MENCIONADA CON ANTERIORIDAD, CONTACTATE CON NOSOTROS PARA QUE PODAMOS AYUDARTE.</p>
-                <a type="button" href="#servicios" class="btn btn-primary">Servicios</a>
+                <a   type="button" href="#servicios" class="btn btn-primary d-flex justify-content-center">Servicios</a>
             </div>
         </div>
 
         <div class="servicios back" id="servicios">
-            <div class="textoServicios"><h2>NUESTROS SERVICIOS.</h2>
-                <p>Nosotros llevamos adelante los requerimientos frente al seguro por medio de nuestro estudio de abogados. Los mismos tienen vasta experiencia a lo que el rubro de accidentes de transito refiere.</p> 
-                <p>Realizamos tanto la negociacion administrativa prejudicial como tambien el juicio ante los juzgados civiles de la C.A.B.A. y la Provincia de Buenos Aires. Contactanos para mas informacion.</p>
-                <a type="button" href="#contactanos" class="btn btn-primary">Contacto</a>
+            <div class="textoServicios"><h2 id="tituloPag">NUESTROS SERVICIOS.</h2>
+                <p>Realizamos las gestiones administrativas y judiciales de siniestros viales.</p> 
+                <p>Esta tarea la llevamos a cabo tanto en C.A.B.A. como P.B.A.</p>
+                <a  type="button" href="#contactanos" class="btn btn-primary d-flex justify-content-center">Contacto</a>
             </div>
         </div>
 
         <div class="contactanos back" id="contactanos">
-            <div class="textoContacto"><h2>COMUNICATE CON NOSOTROS A NUESTRO WHATSAPP</h2>
+            <div class="textoContacto"><h2 id="tituloPag">COMUNICATE CON NOSOTROS A NUESTRO WHATSAPP</h2>
               <a href="https://api.whatsapp.com/send?phone=5491133520064&text=Hola!%20Quiero%20realizar%20una%20consulta%20legal!%20Gracias!"><img class="QRM QR" src="./imagenes/whatsapp.png" alt="QRWhatsapp"></a>
               <img class="QRP QR" src="./imagenes/QR.png" alt="QRWhatsapp">
-                <a type="button" href="#preguntasFrecuentes" class="btn btn-primary">Preguntas frecuentes</a>
+                <a  type="button" href="#preguntasFrecuentes" class="btn btn-primary  d-flex justify-content-center">Preguntas frecuentes</a>
             </div>
         </div>
 
