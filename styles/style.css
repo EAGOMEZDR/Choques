@@ -22,15 +22,6 @@ li{
     display:none;
 }
 
-.botonDown{
-    height: 6vh;
-    width: 6vh;
-    position: sticky;
-    z-index: 1000;
-    bottom: 0;
-    left:50%;
-    
-}
 
 .qr{
     height: 30vh;
@@ -207,7 +198,7 @@ li{
 
     .boots{
         position:relative;
-        top:20vh;
+        top:10vh;
         margin: 0 auto;
         color:white;
         background-color: rgba(0, 0, 0, 0.267);       
@@ -270,8 +261,9 @@ li{
     }
 
     .botones{
-        height: 5vh;
+        height: 6vh;
         width: 30vh;
+        font-size: 2vh;
     }
 
     .tablet, .pc, .servpcycelu{
@@ -279,20 +271,12 @@ li{
     }
 
     p,ul,li{
-        font-size: 1.5vh;
+        font-size: 1.4vh;
         list-style-type: none;
     }
 
     h5{
-        font-size: 1.5vh;
-    }
-    p,ul,li{
-        font-size: 1vh;
-        list-style-type: none;
-    }
-
-    h5{
-        font-size: 1.2vh;
+        font-size: 1.4vh;
     }
     .redes{
         color: white;
@@ -441,7 +425,7 @@ li{
 
     .boots{
         position:relative;
-        top:20vh;
+        top:15vh;
         margin: 0 auto;
         color:white;
         background-color: rgba(0, 0, 0, 0.267);       
@@ -468,7 +452,7 @@ li{
 
     .boots3{
         position:relative;
-        top:20vh;
+        top:13vh;
         margin: 0 auto;
         color:white;
         background-color: rgba(0, 0, 0, 0.267);       
@@ -477,7 +461,7 @@ li{
 
     .boots4{
         position:relative;
-        top:10vh;
+        top:6vh;
         margin: 0 auto;
         color:white;
         background-color: rgba(0, 0, 0, 0.267);       
@@ -505,7 +489,7 @@ li{
 
     .botones{
         height: 5vh;
-        width: 30vh;
+        width: 35vh;
     }
 
     .tablet, .pc, .servpcycelu{
@@ -723,7 +707,7 @@ li{
     }
     .botones{
         height: 5vh;
-        width: 30vh;
+        width: 35vh;
     }
     .pc,.celu{
         display: none;
@@ -939,7 +923,7 @@ li{
 
     .botones{
         height: 5vh;
-        width: 30vh;
+        width: 35vh;
     }
 
     .tablet, .celu{
@@ -954,7 +938,6 @@ li{
         font-size: 1.6vh;
     }
     .redes{
-        height: 15vh;
         color: white;
         position: relative;
         top: 70vh;
