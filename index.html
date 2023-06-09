@@ -13,7 +13,7 @@
     <header>
         <nav class="navbar navbar-expand-xl fixed-top" id="pruebaBoot">
             <div class="container-fluid">
-              <a class="navbar-brand logo bg-light" href="#inicio"><img src="./imagenes/logo.png" alt="logo"></a>
+              <a class="navbar-brand logo bg-light" href="#inicio"><img class="logo2"src="./imagenes/logo.png" alt="logo"></a>
               <a class="navbar-brand logo15" href="#inicio"><img src="./imagenes/logo15.png" alt="logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,22 +21,22 @@
               <div class="collapse  navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                   <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#inicio">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active  text-white" href="#queHacer"> Que hacer?</a>
+                    <a class="nav-link active " href="#queHacer"> Documental</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active  text-white" href="#documentacion">Documentacion</a>
+                    <a class="nav-link active " href="#documentacion">Servicios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active  text-white" href="#servicios">Servicios</a>
+                    <a class="nav-link active " href="#servicios">Porque elegirnos?</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active  text-white" href="#contactanos">Contactanos</a>
+                    <a class="nav-link active " href="#contactanos">Contactanos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active  text-white" href="#preguntasFrecuentes">Preguntas frecuentes</a>
+                    <a class="nav-link active " href="#preguntasFrecuentes">Preguntas frecuentes</a>
                   </li>
 
                 </ul>
@@ -49,61 +49,219 @@
 
     <main class="main">
         <div class="inicio back" id="inicio">
-            <div class="textoIndex">
-              <h2 id="tituloPag">CHOCASTE?</h2>
-              <p>NO PIERDAS NI UN MINUTO, INFORMATE LO QUE TENES QUE HACER!</p>
-                <a  type="button" href="#queHacer" class="btn btn-primary d-flex justify-content-center">Ir a Que Hacer?</a>
-            </div>    
-        </div>
+            <!-- <div class="textoIndex">
 
-        <div class="queHacer back" id="queHacer">
-            <div class="textoQueHacer">
-              <h2 id="tituloPag">QUE HACER FRENTE A UN SINIESTRO VIAL?</h2>
-              <ul>
-                <li>Verifica que no haya heridos de gravedad.</li>
-                <li>Toma fotos de los daños.</li>
-                <li>Solicita la documentacion pertinente.</li>
-                <li>Concurrí al Hospital/Clinica/Centro de Salud mas cercano para tu atención.</li>
-                <li>NO TE OLVIDES DE REALIZAR LA DENUNCIA ANTE TU SEGURO (dentro de los 3 dias).</li>
-              </ul>
-                <a type="button" href="#documentacion" class="btn btn-primary d-flex justify-content-center">Ir a Documental</a>
+              <h2 id="tituloPag">CHOCASTE?</h2>
+              <p>NO PIERDAS NI UN MINUTO, PEDI LO QUE TE CORRESPONDE!</p>
+                <a  type="button" href="#queHacer" class="btn btn-primary d-flex justify-content-center">Ir a Que Hacer?</a>
+            </div>     -->
+
+            <div class="card text-center boots1" >
+              <div class="card-body">
+                <h5 class="card-title">NO PIERDAS NI UN MINUTO, ENTERATE LO QUE NECESITAS PARA PROCEDER CON TU TRAMITE!
+                </h5>
+                <p class="card-text"></p>
+                <a href="#queHacer" class="btn btn-primary">¿QUE HACER?</a>
+              </div>
             </div>
         </div>
 
+        <div class="queHacer back" id="queHacer">
+            <!-- <div class="textoQueHacer">
+              <img id="flechaBack" src="./imagenes/down.png" alt="flechaBack">
+              <h2 id="tituloPag">QUE DOCUMENTOS NECESITO PARA INICIAR EL RECLAMO?</h2>
+              <ul>
+                <li>DNI, LICENCIA, CEDULA VERDE/AZUL (TITULAR/AUTORIZADO)</li>
+                <li>CONSTANCIA SEGURO</li>
+                <li>FOTOS DE LOS DAÑOS</li>
+                <li>FOTOS DEL LUGAR</li>
+                <li>DATOS DE TESTIGOS</li>
+              </ul>
+                <a type="button" href="#documentacion" class="btn btn-primary d-flex justify-content-center">Ir a Servicios</a>
+            </div> -->
+            <div class="card text-center boots" >
+              <div class="card-body">
+                <h5 class="card-header">QUE DOCUMENTOS NECESITO PARA INICIAR EL RECLAMO?
+                </h5>
+                </div>
+                <p class="card-text">
+                  <div class="row g-4">
+                    <div class="col-sm-4">
+                      <div class="card transpar">
+                        <div class="card-body cards">
+                          <h5 class="card-title">DNI</h5>
+                          <hr class="border border-secondary border-1 opacity-50">
+                          <p class="card-text">Es importante que saques foto de ambos lados.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card transpar">
+                        <div class="card-body cards">
+                          <h5 class="card-title">LICENCIA DE CONDUCIR</h5>
+                          <hr class="border border-secondary border-1 opacity-50">
+                          <p class="card-text">Foto de ambos lados!</p>
+                          <p class="card-text">Es importante que no este vencida!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card transpar">
+                        <div class="card-body cards">
+                          <h5 class="card-title">CEDULA VERDE/AZUL</h5>
+                          <hr class="border border-secondary border-1 opacity-50">
+                          <p class="card-text">Foto de ambos lados!</p>
+                          <p class="card-text">Recorda que tanto la cedula verde como la azul no tienen vencimiento para su titular.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card transpar">
+                        <div class="card-body cards">
+                          <h5 class="card-title">TESTIGOS</h5>
+                          <hr class="border border-secondary border-1 opacity-50">
+                          <p class="card-text">Intenta conseguir datos de testigos que hayan presenciado el choque!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card transpar">
+                        <div class="card-body cards">
+                          <h5 class="card-title">DATOS DEL OTRO CONDUCTOR</h5>
+                          <hr class="border border-secondary border-1 opacity-50">
+                          <p class="card-text">Nombre completo</p>
+                          <p class="card-text">DNI</p>
+                          <p class="card-text">Direccion</p>
+                          <p class="card-text">Telefono</p>
+                          <p class="card-text">Seguro (ESTO ES MUY IMPORTANTE)</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card transpar">
+                        <div class="card-body cards">
+                          <h5 class="card-title">CONSTANCIA SEGURO</h5>
+                          <hr class="border border-secondary border-1 opacity-50">
+                          <p class="card-text">La misma tiene que estar actualizada con cobertura el dia del siniestro.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#documentacion" class="btn btn-primary">NUESTROS SERVICIOS</a>
+              </div>            
+            </div>
+
+        </div>
+
         <div class="documentacion back" id="documentacion">
-            <div class="textoDocumentacion"><h2 id="tituloPag">DOCUMENTAL NECESARIA PARA TRAMITE</h2>
+            <!-- <div class="textoDocumentacion">
+              <img id="flechaBack" src="./imagenes/down.png" alt="flechaBack">
+              <h2 id="tituloPag">SERVICIOS QUE BRINDAMOS EN CABA Y GRAN BUENOS AIRES</h2>
+              <h4 id="tituloPag">NOSOTROS NOS ENCARGAMOS DE:</h4>
                 <ul class="listadoDocumental">
-                    <li>DNI, LICENCIA, CEDULA VERDE/AZUL (TITULAR/AUTORIZADO) (</li>
-                    <li>CONSTANCIA SEGURO</li>
-                    <li>FOTOS DE LOS DAÑOS</li>
-                    <li>FOTOS DEL LUGAR</li>
-                    <li>DATOS DE TESTIGOS</li>
+                    <li>HACER EL PRESUPUESTO</li>
+                    <li>INICIAR EL RECLAMO</li>
+                    <li>QUE TE ACOMPAÑE UN PERITO MEDICO A LA VISTA MEDICA</li>
+                    <li>INICIAR LA MEDIACION</li>
+                    <li>JUDICIALIZAR SI NO TE CONVENCE EL OFRECIMIENTO CONSEGUIDO</li>
                 </ul>
-                <a   type="button" href="#servicios" class="btn btn-primary d-flex justify-content-center">Ir a Servicios</a>
+                <a   type="button" href="#servicios" class="btn btn-primary d-flex justify-content-center">Ir a Porque elegirnos</a>
+            </div> -->
+            <div class="card text-center boots" >
+              <div class="card-body">
+                <h5 class="card-header">NUESTROS SERVICIOS
+                </h5>
+                <p class="card-text ">
+                  <div class="row g-4">
+                    <div class="col-sm-2">
+                      <div class="card transpar">
+                        <div class="card-body cards">
+                          <h5 class="card-title">MEJORES ACUERDOS</h5>
+                          <hr class="border border-secondary border-1 opacity-50">
+                          <p class="card-text">Nuestros abogados especialistas negocian los mejores acuerdos del mercado.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="card transpar">
+                        <div class="card-body cards">
+                          <h5 class="card-title">COMUNICACION CONSTANTE</h5>
+                          <hr class="border border-secondary border-1 opacity-50">
+                          <p class="card-text">Olvidate de los que no te atienden el telefono. Tenemos contacto constante con nuestros clientes.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="card transpar">
+                        <div class="card-body cards">
+                          <h5 class="card-title">SINCERIDAD BRUTAL</h5>
+                          <hr class="border border-secondary border-1 opacity-50">
+                          <p class="card-text">No dudamos ni un instante en aclararte la verdadera viabilidad de tu caso.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="card transpar">
+                        <div class="card-body cards">
+                          <h5 class="card-title">TE ACOMPAÑAMOS EN TODO EL TRAYECTO</h5>
+                          <hr class="border border-secondary border-1 opacity-50">
+                          <p class="card-text">Desde el choque hasta que cobres lo que te corresponde. Te acompañamos en todo el camino.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="card transpar">
+                        <div class="card-body cards">
+                          <h5 class="card-title">NUESTROS ABOGADOS SON REALMENTE LOS QUE LLEVAN TU CASO</h5>
+                          <hr class="border border-secondary border-1 opacity-50">
+                          <p class="card-text">Los abogados que llevan adelante tu caso son profesionales con titulo habilitante y matricula vigente. No tenemos "estudiantes" como otros estudios.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-2">
+                      <div class="card transpar">
+                        <div class="card-body cards">
+                          <h5 class="card-title">MEDICOS Y CHAPISTAS PROPIOS</h5>
+                          <hr class="border border-secondary border-1 opacity-50">
+                          <p class="card-text">Contamos con personal medico y tecnico para evaluar tu estado y el de tu vehiculo.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#queHacer" class="btn btn-primary">¿QUE HACER?</a>
+              </div>
             </div>
         </div>
 
         <div class="servicios back" id="servicios">
-            <div class="textoServicios"><h2 id="tituloPag">NUESTROS SERVICIOS.</h2>
-                <p>Realizamos las gestiones administrativas y judiciales de siniestros viales.</p> 
-                <p>Esta tarea la llevamos a cabo tanto en C.A.B.A. como P.B.A.</p>
+            <!-- <div class="textoServicios"><h2 id="tituloPag">PORQUE ELEGIRNOS?</h2>
+              <img id="flechaBack" src="./imagenes/down.png" alt="flechaBack">
+                <p>NOS OCUPAMOS DE TODO POR VOS!</p> 
+                <p>UNA VEZ QUE NOS DAS LA DOCUMENTAL QUE NECESITAMOS, SOLO TENES QUE ESPERAR EL OFRECIMIENTO</p>
+                <p>SI NO HAY ACUERDO, INICIAMOS EL JUICIO!</p>
                 <a  type="button" href="#contactanos" class="btn btn-primary d-flex justify-content-center">Ir a Contacto</a>
+            </div> -->
+            <div class="card text-center boots" >
+              <div class="card-body">
+                <h5 class="card-title">NO PIERDAS NI UN MINUTO, ENTERATE LO QUE NECESITAS PARA PROCEDER CON TU TRAMITE!
+                </h5>
+                <p class="card-text"></p>
+                <a href="#queHacer" class="btn btn-primary">¿QUE HACER?</a>
+              </div>
             </div>
         </div>
 
         <div class="contactanos back" id="contactanos">
             <div class="textoContacto"><h2 id="tituloPag">COMUNICATE CON NOSOTROS A NUESTRO WHATSAPP</h2>
-              <a href="https://api.whatsapp.com/send?phone=5491133520064&text=Hola!%20Quiero%20realizar%20una%20consulta%20legal!%20Gracias!"><img class="QRM QR" src="./imagenes/whatsapp.png" alt="QRWhatsapp"></a>
+              <a href="https://api.whatsapp.com/send?phone=5491157478607&text=Hola!%20Quiero%20realizar%20una%20consulta%20sobre%20un%20siniestro!.%20Gracias!"><img class="QRM QR" src="./imagenes/whatsapp.png" alt="QRWhatsapp"></a>
               <img class="QRP QR" src="./imagenes/QR.png" alt="QRWhatsapp">
-                <a  type="button" href="#preguntasFrecuentes" class="btn btn-primary  d-flex justify-content-center">Preguntas frecuentes</a>
             </div>
         </div>
 
-        <div class="preguntasFrecuentes back" id="preguntasFrecuentes">
-            <div class="textoPreguntas"><h2>PREGUNTAS FRECUENTES</h2>
-            </div>
-        </div>
-
+        
+        
     </main>
 
 
