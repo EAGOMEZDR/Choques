@@ -9,6 +9,10 @@ nav{
     background-color: rgba(255, 255, 255, 0.925);
 }
 
+.iconRedes{
+    height: 6vh;
+    width: 6vh;
+}
 
 li{
     padding: 1vh;
@@ -16,14 +20,6 @@ li{
 
 .logo{
     display:none;
-}
-
-.foot{
-    height: 5vh;
-    position:relative;
-    width: auto;
-    z-index: 500;
-    background-color: antiquewhite;
 }
 
 .botonDown{
@@ -88,16 +84,9 @@ li{
     border-bottom: 1px solid black;
 }
 
-.preguntasFrecuentes{
-    height: 100vh;
-    background-color:rgb(110, 110, 110);
-    background-size: auto;
-    background-blend-mode: multiply;
-    border-bottom: 1px solid black;
-}
 
 /* --------------Mini Celular-------------- */
-@media (max-width: 399px){
+@media (max-width: 399.99px){
 
     .qrm{
         background: none;
@@ -191,7 +180,7 @@ li{
         text-align: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position:relative;
-        top:40vh;
+        top:25vh;
         margin:0 auto;
         color:white;
     
@@ -277,7 +266,7 @@ li{
     }
     .logo15>img{
         height: auto;
-        width: 30vh;
+        width: 20vh;
     }
 
     .botones{
@@ -305,12 +294,34 @@ li{
     h5{
         font-size: 1.2vh;
     }
+    .redes{
+        color: white;
+        position: relative;
+        top: 70vh;
+        text-align: center;
+        align-content: space-around;
+    }
+    .redes>a{
+        padding: 2vh;
+        margin: 2vh;
+    }
+    .redesTitulo{
+        color: white;
+        position: relative;
+        top:70vh;
+        text-align: center;
+    }
+    .whatsapp{
+        height: auto;
+        width: 35vh;
+    }
+    
 }
 
 
 
 /* ---------------------CELULAR----------------------- */
-@media (min-width:400px) and (max-width: 720px){
+@media (min-width:400px) and (max-width: 720.99px){
     .qrm{
         background: none;
     }
@@ -403,7 +414,7 @@ li{
         text-align: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position:relative;
-        top:40vh;
+        top:25vh;
         margin:0 auto;
         color:white;
     
@@ -509,12 +520,29 @@ li{
     h5{
         font-size: 1.35vh;
     }
+    .redes{
+        color: white;
+        position: relative;
+        top: 70vh;
+        text-align: center;
+        align-content: space-around;
+    }
+    .redes>a{
+        padding: 5vh;
+        margin: 2vh;
+    }
+    .redesTitulo{
+        color: white;
+        position: relative;
+        top:70vh;
+        text-align: center;
+    }
 
 }
 
 /* -------------------------------TABLET------------------- */
 
-@media (min-width: 721px) and (max-width:1199px){
+@media (min-width: 721px) and (max-width:1199.99px){
     .qrm{
         background: none;
     }
@@ -613,7 +641,7 @@ li{
         text-align: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position:relative;
-        top:40vh;
+        top:35vh;
         margin:0 auto;
         color:white;
     
@@ -707,6 +735,23 @@ li{
     }
     h5{
         font-size: 1.6vh;
+    }
+    .redes{
+        color: white;
+        position: relative;
+        top: 70vh;
+        text-align: center;
+        align-content: space-around;
+    }
+    .redes>a{
+        padding: 5vh;
+        margin: 2vh;
+    }
+    .redesTitulo{
+        color: white;
+        position: relative;
+        top:70vh;
+        text-align: center;
     }
 
 }
@@ -814,7 +859,7 @@ li{
         text-align: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position:relative;
-        top:40vh;
+        top:35vh;
         margin:0 auto;
         color:white;
     
@@ -907,6 +952,24 @@ li{
     }
     h5{
         font-size: 1.6vh;
+    }
+    .redes{
+        height: 15vh;
+        color: white;
+        position: relative;
+        top: 70vh;
+        text-align: center;
+        align-content: space-around;
+    }
+    .redes>a{
+        padding: 5vh;
+        margin: 2vh;
+    }
+    .redesTitulo{
+        color: white;
+        position: relative;
+        top:70vh;
+        text-align: center;
     }
 
 
