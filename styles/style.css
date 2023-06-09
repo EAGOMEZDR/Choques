@@ -1,8 +1,9 @@
 *{
     padding: 0;
     margin: 0;
-
+    font-family: 'Roboto', sans-serif;
 }
+
 
 nav{
     background-color: rgba(255, 255, 255, 0.925);
@@ -13,6 +14,7 @@ p,ul,li{
     list-style-type: none;
 }
 
+
 li{
     padding: 1vh;
 }
@@ -20,7 +22,6 @@ li{
 .logo{
     display:none;
 }
-
 
 .foot{
     height: 5vh;
@@ -53,7 +54,7 @@ li{
 
 .inicio{
     height: 100vh;
-    background-color:rgb(75, 75, 75);
+    background-color:rgba(109, 109, 109, 0.5);
     background-size: auto;
     background-blend-mode: multiply;
     border-bottom: 1px solid black;
@@ -69,7 +70,7 @@ li{
 
 .documentacion{
     height: 100vh;
-    background-color:rgb(110, 110, 110);
+    background-color:rgb(49, 49, 49);
     background-size: auto;
     background-blend-mode: multiply;
     border-bottom: 1px solid black;
@@ -77,7 +78,7 @@ li{
 
 .servicios{
     height: 100vh;
-    background-color:rgb(110, 110, 110);
+    background-color:rgb(49, 49, 49);
     background-size:auto;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
@@ -86,7 +87,7 @@ li{
 
 .contactanos{
     height: 100vh;
-    background-color:rgb(110, 110, 110);
+    background-color:rgb(49, 49, 49);
     background-size: auto;
     background-blend-mode: multiply;
     border-bottom: 1px solid black;
@@ -213,17 +214,76 @@ li{
         display: none;
     }
 
+    .QRPM{
+        display: none;
+    }
 
+    .boots{
+        position:relative;
+        top:20vh;
+        margin: 0 auto;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.267);       
+    }
+
+    .boots1{
+        position:relative;
+        top:70vh;
+        margin: 0 auto;
+        color:rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.397);       
+    
+    }
+
+
+    .boots2{
+        position:relative;
+        top:50vh;
+        margin: 0 auto;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.267);       
+    
+    }
+
+    .boots3{
+        position:relative;
+        top:35vh;
+        margin: 0 auto;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.267);       
+    
+    }
+    .width{
+        width: 60vh;
+    }
+    .transpar{
+        background-color: rgba(121, 121, 121, 0.233);
+    }
+    .cards{
+        color:rgb(230, 218, 218);
+    }
+    .logo2{
+        height: auto;
+        width: 40vh;
+    }
+    .QRM{
+        background: none;
+    }
+
+    .botones{
+        height: 5vh;
+        width: 30vh;
+    }
+
+    .tablet, .pc, .servpcycelu{
+        display:none
+    }
 
 }
 
+/* -------------------------------TABLET------------------- */
 
-
-
-
-/* PARA PC */
-
-@media (min-width: 721px){
+@media (min-width: 721px) and (max-width:1199px){
     #flechaBack{
         width: 10vh;
         height: 10vh;
@@ -340,6 +400,14 @@ li{
         display: none;
     }
 
+    .boots{
+        position:relative;
+        top:18vh;
+        margin: 0 auto;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.267);       
+    }
+
     .boots1{
         position:relative;
         top:70vh;
@@ -349,18 +417,19 @@ li{
     
     }
 
-    .boots{
+
+    .boots2{
         position:relative;
-        top:30vh;
+        top:50vh;
         margin: 0 auto;
         color:white;
         background-color: rgba(0, 0, 0, 0.267);       
     
     }
 
-    .boots2{
+    .boots3{
         position:relative;
-        top:50vh;
+        top:15vh;
         margin: 0 auto;
         color:white;
         background-color: rgba(0, 0, 0, 0.267);       
@@ -379,4 +448,199 @@ li{
         height: auto;
         width: 40vh;
     }
+    .botones{
+        height: 5vh;
+        width: 30vh;
+    }
+    .pc,.celu{
+        display: none;
+    }
+
+
+}
+
+
+
+/* -----------------------------PARA PC------------------------ */
+
+@media (min-width: 1200px){
+    #flechaBack{
+        width: 10vh;
+        height: 10vh;
+        position:absolute;
+        bottom:30vh;
+        right:50%;
+        transform:rotate(180deg)
+    }
+
+    .logo15{
+        display:none;
+
+    }
+    .logo{
+        display:contents;
+    }
+    .inicio{
+        background-image: url("../imagenes/car1.jpg");
+    }
+    
+    .queHacer{
+        background-image: url("../imagenes/car2.jpg");
+    }
+    
+    .documentacion{
+        background-image: url("../imagenes/car3.jpg");
+    }
+    
+    .servicios{
+        background-image: url("../imagenes/car4.jpg");
+    }
+    
+    .contactanos{
+        background-image: url("../imagenes/car5.jpg");
+    }
+    
+    .preguntasFrecuentes{
+        background-image: url("../imagenes/car6.jpg");
+    }
+
+    .textoIndex{
+        height: 15vh;
+        width:90vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2vh;
+        position:relative;
+        top:68vh;
+        margin: 0 auto;
+        color:white;       
+    
+    }
+
+    .textoQueHacer{
+        height: 15vh;
+        width: 90vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:relative;
+        top:40vh;
+        margin:0 auto;
+        color:white;
+    
+    }
+
+    .textoDocumentacion{
+        height: 15vh;
+        width: 90vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:relative;
+        top:35vh;
+        margin:0 auto;
+        color:white;
+    
+    }
+
+    .textoServicios{
+        height: 15vh;
+        width: 90vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:relative;
+        top:70vh;
+        margin:0 auto;
+        color:white;
+    
+    }
+
+    .textoContacto{
+        height: 15vh;
+        width: 90vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:relative;
+        top:40vh;
+        margin:0 auto;
+        color:white;
+    
+    }
+
+    .textoPreguntas{
+        height: 15vh;
+        width: 90vh;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:relative;
+        top:40vh;
+        margin:0 auto;
+        color:white;
+    
+    }
+    .QRPM{
+        display: none;
+    }
+
+    .boots{
+        position:relative;
+        top:20vh;
+        margin: 0 auto;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.267);       
+    }
+
+    .boots1{
+        position:relative;
+        top:70vh;
+        margin: 0 auto;
+        color:rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.397);       
+    
+    }
+
+
+    .boots2{
+        position:relative;
+        top:50vh;
+        margin: 0 auto;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.267);       
+    
+    }
+
+    .boots3{
+        position:relative;
+        top:35vh;
+        margin: 0 auto;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.267);       
+    
+    }
+    .width{
+        width: 60vh;
+    }
+    .transpar{
+        background-color: rgba(121, 121, 121, 0.233);
+    }
+    .cards{
+        color:rgb(230, 218, 218);
+    }
+    .logo2{
+        height: auto;
+        width: 40vh;
+    }
+    .QRM{
+        background: none;
+    }
+
+    .botones{
+        height: 5vh;
+        width: 30vh;
+    }
+
+    .tablet, .celu{
+        display:none
+    }
+
+
+
 }
