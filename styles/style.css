@@ -9,11 +9,6 @@ nav{
     background-color: rgba(255, 255, 255, 0.925);
 }
 
-p,ul,li{
-    font-size: 1.6vh;
-    list-style-type: none;
-}
-
 
 li{
     padding: 1vh;
@@ -40,6 +35,8 @@ li{
     left:50%;
     
 }
+
+
 
 .QR{
     height: 30vh;
@@ -102,7 +99,7 @@ li{
 }
 
 
-
+/* ---------------------CELULAR----------------------- */
 @media (max-width: 720px){
     #tituloPag{
         text-align: center;
@@ -220,7 +217,7 @@ li{
 
     .boots{
         position:relative;
-        top:20vh;
+        top:10vh;
         margin: 0 auto;
         color:white;
         background-color: rgba(0, 0, 0, 0.267);       
@@ -247,7 +244,7 @@ li{
 
     .boots3{
         position:relative;
-        top:35vh;
+        top:10vh;
         margin: 0 auto;
         color:white;
         background-color: rgba(0, 0, 0, 0.267);       
@@ -266,6 +263,10 @@ li{
         height: auto;
         width: 40vh;
     }
+    .logo15>img{
+        height: auto;
+        width: 30vh;
+    }
     .QRM{
         background: none;
     }
@@ -277,6 +278,14 @@ li{
 
     .tablet, .pc, .servpcycelu{
         display:none
+    }
+
+    p,ul,li{
+        font-size: 1.4vh;
+        list-style-type: none;
+    }
+    h5{
+        font-size: 1.5vh;
     }
 
 }
@@ -402,10 +411,11 @@ li{
 
     .boots{
         position:relative;
-        top:18vh;
+        top:10vh;
         margin: 0 auto;
         color:white;
-        background-color: rgba(0, 0, 0, 0.267);       
+        background-color: rgba(0, 0, 0, 0.267);
+        font-size: 3vh;       
     }
 
     .boots1{
@@ -456,6 +466,10 @@ li{
         display: none;
     }
 
+    p,ul,li{
+        font-size: 1.6vh;
+        list-style-type: none;
+    }
 
 }
 
@@ -628,9 +642,6 @@ li{
         height: auto;
         width: 40vh;
     }
-    .QRM{
-        background: none;
-    }
 
     .botones{
         height: 5vh;
@@ -641,6 +652,10 @@ li{
         display:none
     }
 
+    p,ul,li{
+        font-size: 1.6vh;
+        list-style-type: none;
+    }
 
 
 }
