@@ -926,12 +926,12 @@ li{
         width: 35vh;
     }
 
-    .celu{
+    .pc, .celu{
         display:none
     }
 
     p,ul,li{
-        font-size: 1.8vh;
+        font-size: 1.7vh;
         list-style-type: none;
     }
     h5{
