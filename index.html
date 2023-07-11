@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/style.css">
 		<meta name="description" content="Chocaste es tu Estudio Jurídico de siniestros viales de confianza. Nadie nos iguala en cuanto a negociaciones y montos que conseguimos." />
 		<meta name="googlebot" content="notranslate" />
-		<meta name="keywords" content="abogado,choques, abogados, civil, daños, perjuicios, buffet de abogados, derecho, justicia,  derecho, reparar, automotores"/>
+		<meta name="keywords" content="abogado, choques, chocaste, te chocaron, rompiste, automovil roto, automotores, abogados, civil, daños, perjuicios, buffet de abogados, derecho, justicia,  derecho, reparar, automotores"/>
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,19 +29,19 @@
               <div class="collapse  navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    <a class="nav-link active navTextMobile" aria-current="page" href="#inicio">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active " href="#documental"> Documental</a>
+                    <a class="nav-link active  navTextMobile" href="#documental"> Documental</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active " href="#servicios">Servicios</a>
+                    <a class="nav-link active  navTextMobile" href="#servicios">Servicios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active " href="#elegir">Porque elegirnos?</a>
+                    <a class="nav-link active navTextMobile " href="#elegir">Porque elegirnos?</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active botones " href="#contactanos">Contacto</a>
+                    <a class="nav-link active botones navTextMobile " href="#contactanos">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -79,7 +79,7 @@
                         <div class="card-body cards">
                           <h5 class="card-title">DNI</h5>
                           <hr class="border border-secondary border-1 opacity-50">
-                          <p class="card-text">Es importante que saques foto de ambos lados.</p>
+                          <p class="card-text">Es importante que saques foto de ambos lados del DNI de todos los individuos que hayan participado del siniestro vial.</p>
                         </div>
                       </div>
                     </div>
@@ -88,8 +88,7 @@
                         <div class="card-body cards">
                           <h5 class="card-title">LICENCIA DE CONDUCIR</h5>
                           <hr class="border border-secondary border-1 opacity-50">
-                          <p class="card-text">Foto de ambos lados.</p>
-                          <p class="card-text">¡Es importante que no esté vencida!</p>
+                          <p class="card-text">Debes contar con foto de ambos lados de las licencias de todos los individuos involucrados en el siniestro vial. Las mismas deben estar vigentes al momento del hecho y los domicilios tienen que estar actualizados y concordantes con el que figura en los DNI.</p>
                         </div>
                       </div>
                     </div>
@@ -98,8 +97,7 @@
                         <div class="card-body cards">
                           <h5 class="card-title">CEDULA VERDE/AZUL</h5>
                           <hr class="border border-secondary border-1 opacity-50">
-                          <p class="card-text">Foto de ambos lados.</p>
-                          <p class="card-text">Recordá que tanto la cedula verde como la azul no tienen vencimiento para su titular.</p>
+                          <p class="card-text">Foto de ambos lados de la tarjeta de circulacion (Ex Cedula verde/azul). Recorda que estas no tienen vencimiento para sus titulares pero si para terceros.</p>
                         </div>
                       </div>
                     </div>
@@ -108,7 +106,7 @@
                         <div class="card-body cards">
                           <h5 class="card-title">TESTIGOS</h5>
                           <hr class="border border-secondary border-1 opacity-50">
-                          <p class="card-text">¡Intentá conseguir datos de testigos que hayan presenciado el choque!</p>
+                          <p class="card-text">Para el caso de que el caso deba escalar a la via judicial, vas a requerir de testigos que hayan presenciado el siniestro vial. Recorda que los datos de los testigos deben contener: Nombre completo, DNI, Direccion y Telefono de contacto.</p>
                         </div>
                       </div>
                     </div>
@@ -135,7 +133,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="row g-1 celu">
+                  <!-- <div class="row g-1 celu">
                     <div class="col-sm-4">
                       <div class="card transpar">
                         <div class="card-body cards">
@@ -192,6 +190,64 @@
                           <hr class="border border-secondary border-1 opacity-50">
                           <p class="card-text">La misma debe que estar actualizada con cobertura el día del siniestro.</p>
                         </div>
+                      </div>
+                    </div>
+                  </div> -->
+                  <div class="row g-1 celu">
+                    <a class="btn btn-warning botoncitosMobile" id="chocaste-celu" data-bs-toggle="collapse" href="#dni" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      DNI
+                    </a>
+                    <div class="collapse" id="dni">
+                      <div class="card card-body text-bg-dark  textoBotoncito">
+                        Es importante que saques foto de ambos lados del DNI de todos los individuos que hayan participado del siniestro vial. 
+                      </div>
+                    </div>
+                    <a class="btn btn-warning botoncitosMobile" id="chocaste-celu"  data-bs-toggle="collapse" href="#licenciaDeConducir" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      LICENCIA DE CONDUCIR
+                    </a>
+                    <div class="collapse " id="licenciaDeConducir">
+                      <div class="card card-body text-bg-dark textoBotoncito">
+                        Debes contar con foto de ambos lados de las licencias de todos los individuos involucrados en el siniestro vial. Las mismas deben estar vigentes al momento del hecho y los domicilios tienen que estar actualizados y concordantes con el que figura en los DNI.
+                      </div>
+                    </div>
+                    <a class="btn btn-warning botoncitosMobile" id="chocaste-celu"  data-bs-toggle="collapse" href="#cedulas" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      CEDULA VERDE/AZUL
+                    </a>
+                    <div class="collapse" id="cedulas">
+                      <div class="card card-body text-bg-dark textoBotoncito">
+                        Foto de ambos lados de la tarjeta de circulacion (Ex Cedula verde/azul). Recorda que estas no tienen vencimiento para sus titulares pero si para terceros.
+                      </div>
+                    </div>
+                    <a class="btn btn-warning botoncitosMobile" id="chocaste-celu"  data-bs-toggle="collapse" href="#testigos" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      TESTIGOS
+                    </a>
+                    <div class="collapse" id="testigos">
+                      <div class="card card-body text-bg-dark textoBotoncito">
+                        Para el caso de que el caso deba escalar a la via judicial, vas a requerir de testigos que hayan presenciado el siniestro vial. Recorda que los datos de los testigos deben contener: Nombre completo, DNI, Direccion y Telefono de contacto.
+                      </div>
+                    </div>
+                    <a class="btn btn-warning botoncitosMobile" id="chocaste-celu" data-bs-toggle="collapse" href="#seguro" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      SEGURO
+                    </a>
+                    <div class="collapse" id="seguro">
+                      <div class="card card-body text-bg-dark textoBotoncito">
+                        Ante un siniestro hay que actuar rapido. Dentro de los tres dias de producido deberias comunicarte con tu empresa aseguradora y realizar la correspondiente denuncia. Para iniciar la accion vamos a requerir de la constancia de denuncia y constancia de cobertura actualizada.
+                      </div>
+                    </div>
+                    <a class="btn btn-warning botoncitosMobile"  id="chocaste-celu" data-bs-toggle="collapse" href="#fotos" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      FOTOS
+                    </a>
+                    <div class="collapse" id="fotos">
+                      <div class="card card-body text-bg-dark textoBotoncito">
+                      Para reclamar los daños materiales se requiere de fotos del vehiculo donde se vean los daños. Tene en cuenta que como minimo se requieren de dos(2) fotos en las que se puede ver claramente el auto completo y su patente.
+                      </div>
+                    </div>
+                    <a class="btn btn-warning botoncitosMobile" id="chocaste-celu"  data-bs-toggle="collapse" href="#tercero" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      DATOS DEL OTRO CONDUCTOR
+                    </a>
+                    <div class="collapse" id="tercero">
+                      <div class="card card-body text-bg-dark textoBotoncito">
+                      Uno de los pasos esenciales al momento de sufrir un siniestro vial es solicitar de manera inmediata toda la documental pertinente al otro implicado. Esto comprende fotos del DNI, Tarjeta de Circulacion, constancia de Seguro, Direccion, Telefono.
                       </div>
                     </div>
                   </div>
@@ -320,7 +376,7 @@
                       </div>
                     </div>
                   </div>                  
-                  <div class="row g-1 celu">
+                  <!-- <div class="row g-1 celu">
                     <div class="col-sm-4">
                       <div class="card transpar">
                         <div class="card-body cards">
@@ -364,6 +420,48 @@
                           <hr class="border border-secondary border-1 opacity-50">
                           <p class="card-text">Te informamos los datos del abogado que asignamos a tu expediente para que sepas a quien consultar.</p>
                         </div>
+                      </div>
+                    </div>
+                  </div> -->
+                  <div class="row g-1 celu">
+                    <a class="btn btn-warning botoncitosMobile" id="chocaste-celu-serv" data-bs-toggle="collapse" href="#tramiteAdmin" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      TRAMITACION ADMINSITRATIVA Y MEDIACION PREJUIDICIAL.
+                    </a>
+                    <div class="collapse" id="tramiteAdmin">
+                      <div class="card card-body text-bg-dark  textoBotoncito">
+                        Ingresamos tu reclamo administrativo y la mediación prejuicial en tiempo record.
+                      </div>
+                    </div>
+                    <a class="btn btn-warning botoncitosMobile" id="chocaste-celu-serv"  data-bs-toggle="collapse" href="#estudiosMedicos" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      ESTUDIOS MEDICOS
+                    </a>
+                    <div class="collapse " id="estudiosMedicos">
+                      <div class="card card-body text-bg-dark textoBotoncito">
+                        Contamos con medicos y centros de diagnostico de referencia para estudios.
+                      </div>
+                    </div>
+                    <a class="btn btn-warning botoncitosMobile" id="chocaste-celu-serv"  data-bs-toggle="collapse" href="#juicio" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      JUDICIALIZACION
+                    </a>
+                    <div class="collapse" id="juicio">
+                      <div class="card card-body text-bg-dark textoBotoncito">
+                        Nos encargamos de llevar adelante tu juicio con la profesionalidad que te mereces.
+                      </div>
+                    </div>
+                    <a class="btn btn-warning botoncitosMobile" id="chocaste-celu-serv"  data-bs-toggle="collapse" href="#testigos" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      INFORMACION TRANSPARENTE
+                    </a>
+                    <div class="collapse" id="testigos">
+                      <div class="card card-body text-bg-dark textoBotoncito">
+                        Te informamos el número de expediente para que puedas verificar los movimientos y el estado de tu juicio.
+                      </div>
+                    </div>
+                    <a class="btn btn-warning botoncitosMobile" id="chocaste-celu-serv"  data-bs-toggle="collapse" href="#seguro" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      ABOGADOS ESPECIALISTAS
+                    </a>
+                    <div class="collapse" id="seguro">
+                      <div class="card card-body text-bg-dark textoBotoncito">
+                        Te informamos los datos del abogado que asignamos a tu expediente para que sepas a quien consultar. Desde ya te manifestamos que en el Estudio no contratamos a pasantes ni estudiantes de la carrera. Todos nuestros profesionales estan altamente capacitados con años de experiencia, titulo y matricula habilitante. 
                       </div>
                     </div>
                   </div>
@@ -475,7 +573,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="row g-1 celu">
+                  <!-- <div class="row g-1 celu">
                     <div class="col-md-1">
                       <div class="card transpar">
                         <div class="card-body cards">
@@ -521,6 +619,48 @@
                         </div>
                       </div>
                     </div>
+                  </div> -->
+                  <div class="row g-1 celu">
+                    <a class="btn btn-warning botoncitosMobile" id="chocaste-celu-eleg" data-bs-toggle="collapse" href="#acuerdos" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      MEJORES ACUERDOS
+                    </a>
+                    <div class="collapse" id="acuerdos">
+                      <div class="card card-body text-bg-dark  textoBotoncito">
+                        Nuestros abogados especialistas negocian los mejores acuerdos del mercado.
+                      </div>
+                    </div>
+                    <a class="btn btn-warning botoncitosMobile" id="chocaste-celu-eleg"  data-bs-toggle="collapse" href="#comunicacion" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      COMUNICACION CONSTANTE
+                    </a>
+                    <div class="collapse " id="comunicacion">
+                      <div class="card card-body text-bg-dark textoBotoncito">
+                        Olvidate de los que no te atienden el teléfono. Tenemos contacto constante con nuestros clientes.
+                      </div>
+                    </div>
+                    <a class="btn btn-warning botoncitosMobile"  id="chocaste-celu-eleg" data-bs-toggle="collapse" href="#sinceridad" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      SINCERIDAD BRUTAL
+                    </a>
+                    <div class="collapse" id="sinceridad">
+                      <div class="card card-body text-bg-dark textoBotoncito">
+                        No dudamos ni un instante en aclararte la verdadera viabilidad de tu caso.
+                      </div>
+                    </div>
+                    <a class="btn btn-warning botoncitosMobile"  id="chocaste-celu-eleg"  id="chocaste-celu-eleg" data-bs-toggle="collapse" href="#acompa" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      TE ACOMPAÑAMOS EN TODO EL TRAYECTO
+                    </a>
+                    <div class="collapse" id="acompa">
+                      <div class="card card-body text-bg-dark textoBotoncito">
+                        Te acompañamos en todo el camino desde el choque hasta que cobres lo que te corresponde.
+                      </div>
+                    </div>
+                    <a class="btn btn-warning botoncitosMobile"  id="chocaste-celu-eleg" data-bs-toggle="collapse" href="#seguridad" role="button" aria-expanded="false" aria-controls="collapseExample">
+                      NUESTROS ABOGADOS SON REALMENTE LOS QUE LLEVAN TU CASO
+                    </a>
+                    <div class="collapse" id="seguridad">
+                      <div class="card card-body text-bg-dark textoBotoncito">
+                        Los abogados que llevan adelante tu caso son profesionales con título habilitante y matricula vigente. No tenemos "estudiantes" como otros estudios.
+                      </div>
+                    </div>
                   </div>
                 </p>
                 <a href="#contactanos" class="btn btn-danger botones">CONTACTANOS</a>
@@ -538,6 +678,7 @@
               <a href="https://www.facebook.com/chocaste.com.ar" target=”_blank”><img class="iconRedes" src="./imagenes/facebook.png" alt="facebook"/></a>
               <a target=”_blank” href="https://www.instagram.com/chocaste.com.ar/"><img class="iconRedes" src="./imagenes/instagram.png" alt="instagram"/></a>
             </div>
+            <p class="derechos">Copyright © 2023 Chocaste.com.ar & Chocaste. Todos los derechos reservados. </p>
         </div>                
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

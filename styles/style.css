@@ -78,7 +78,9 @@ li{
 
 /* --------------Mini Celular-------------- */
 @media (max-width: 399.99px){
-
+    .navTextMobile{
+        font-size: 1.8vh;
+    }
     .qrm{
         background: none;
     }
@@ -276,7 +278,7 @@ li{
     }
 
     h5{
-        font-size: 1.4vh;
+        font-size: 2vh;
     }
     .redes{
         color: white;
@@ -425,7 +427,7 @@ li{
 
     .boots{
         position:relative;
-        top:7vh;
+        top:8vh;
         margin: 0 auto;
         color:white;
         background-color: rgba(0, 0, 0, 0.267);       
@@ -452,7 +454,7 @@ li{
 
     .boots3{
         position:relative;
-        top:13vh;
+        top:20vh;
         margin: 0 auto;
         color:white;
         background-color: rgba(0, 0, 0, 0.267);       
@@ -461,7 +463,7 @@ li{
 
     .boots4{
         position:relative;
-        top:7vh;
+        top:20vh;
         margin: 0 auto;
         color:white;
         background-color: rgba(0, 0, 0, 0.267);       
@@ -502,7 +504,7 @@ li{
     }
 
     h5{
-        font-size: 1.35vh;
+        font-size: 2vh;
     }
     .redes{
         color: white;
@@ -520,6 +522,9 @@ li{
         position: relative;
         top:70vh;
         text-align: center;
+    }
+    .navTextMobile{
+        font-size: 1.8vh;
     }
 
 }
@@ -709,7 +714,7 @@ li{
         height: 5vh;
         width: 35vh;
     }
-    .celu{
+    .celu, .pc{
         display: none;
     }
 
@@ -959,7 +964,40 @@ li{
 }
 
 /*Cellphone whatsapp click*/
-#imgWhatsappCel{width: auto; height: 7vh; padding-left:2vh; margin-left:1vh; position:fixed ;bottom:5vh; right:5vh;z-index: 10000;}
+#imgWhatsappCel{width: auto; height: 7vh; padding-left:2vh; margin-left:1vh; position:fixed ;bottom:5vh; right:2vh;z-index: 10000;}
 
 @media screen and (min-width: 720px) { 
   #imgWhatsappCel { display:none } }
+
+.botoncitosMobile{ margin-bottom: 3vh;}
+
+.textoBotoncito{margin-bottom: 2vh;
+
+}
+
+#chocaste-celu{
+    /* background-color:#ce9b02; */
+    color: black;
+    border: 3px solid rgb(175, 0, 0);
+}
+
+#chocaste-celu-serv{
+    /* background-color:#ce3202; */
+    color: black;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+#chocaste-celu-eleg{
+    /* background-color:#ce3202; */
+    color: black;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.derechos{
+    text-align: center;
+    font-size: 1vh;
+    z-index: 1000000;
+    position:relative;
+    top:72vh;
+    color:white;
+}
